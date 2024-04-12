@@ -52,3 +52,67 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+
+.btn-1 {
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgb(30, 201, 67) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+}
+
+.btn-1:hover {
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+    transform: scale(1.1);
+    
+ }
+
+ @keyframes btnAmine {
+    0%   {background-color: rgb(13, 0, 27);}
+    25%  {background-color: rgb(39, 0, 70);}
+    50%  {background-color: rgb(53, 0, 113);}
+    100% {background-color: rgb(119, 0, 255);}
+ }
+
+ .btn-2 {
+    background-color: rgb(13, 0, 27);
+    color: white;
+ }
+
+ .btn-2:hover{
+    animation-name: btnAmine;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+
+ @keyframes buttonmoveAway {
+    0% {
+        transform: translate(0);
+      }
+      25% {
+        transform: translate(-5px);
+      }
+      50% {
+        transform: translate(0);
+      }
+      75% {
+        transform: translate(5px);
+      }
+      100% {
+        transform: translate(0);
+      }
+}
+
+.btn-3{
+    background-color: #4dccc6;
+    background-image: linear-gradient(315deg, #4dccc6 0%, #001a18 74%);
+    color: white;
+}
+/* When the cursor is hovering over the button the gradient of the colours on the button change, and the button moves side to side through and animation */
+ .btn-3:hover {
+    background-image: linear-gradient(315deg, #001a18 0%, #4dccc6 74%);
+    animation-name: buttonmoveAway;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+ }
