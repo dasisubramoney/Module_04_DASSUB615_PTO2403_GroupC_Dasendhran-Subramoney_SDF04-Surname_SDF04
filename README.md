@@ -24,7 +24,7 @@ By completing this project, you will learn to:
 2. **Write your CSS Styles**: Create your animations from scratch. You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
 
 3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
+    - Save all changes and update your GitHub repository with the final versions of all files.
     - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
     - Ensure your repository is set to public so it can be accessed by your code coach.
 
